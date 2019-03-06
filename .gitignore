@@ -1,0 +1,15 @@
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings/
+bin
+build
+target
+.gradle
+.idea
+.mvn
+
+\.vscode/settings\.json

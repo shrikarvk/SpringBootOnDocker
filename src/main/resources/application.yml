@@ -1,0 +1,20 @@
+
+#Author: Shrikar Kalagi
+#Date: 03/06/2019
+server:
+  port: 8080
+
+spring:
+  application:
+    name: testLatticeApp
+
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
