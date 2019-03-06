@@ -10,6 +10,5 @@ build
 target
 .gradle
 .idea
-.mvn
 
 \.vscode/settings\.json
