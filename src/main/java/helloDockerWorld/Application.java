@@ -3,7 +3,7 @@ Author: Shrikar Kalagi
 Date: 03/06/2019 
 */ 
 
-package helloDockerWorkd;
+package helloDockerWorld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

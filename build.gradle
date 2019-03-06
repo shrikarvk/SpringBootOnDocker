@@ -19,7 +19,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'com.palantir.docker'
 
 // This is used as the docker image prefix (org)
-group = 'myDocker'
+group = 'mydocker'
 
 bootJar {
     baseName = 'spring-boot-docker'
