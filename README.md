@@ -3,7 +3,8 @@ This guide walks you through the process of building a Docker image for running 
 prerequisites: 
 		1. Java 1.8 or above
 		2. Latest version of Gradle or Maven
-		2. If you are NOT using a Linux machine, you will need a virtualized server. Visit https://www.virtualbox.org/wiki/Downloads for Download and install
+		3. Latest version of Docker
+		4. If you are NOT using a Linux machine, you will need a virtualized server. Visit https://www.virtualbox.org/wiki/Downloads for Download and install
 
 Follow the below steps in sequence.
 
