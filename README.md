@@ -8,6 +8,8 @@ prerequisites:
 
 Follow the below steps in sequence.
 
+NOTE: if any of the below commands fail with the permission denied error in Linux env, prefix <sudo> to each cmds to run the cmds in root
+
 - if you are using maven, execute the below cmd to buid and start Spring Boot application-
 
 		$ ./mvnw package && java -jar target/spring-boot-docker-0.1.0.jar
@@ -32,7 +34,7 @@ Follow the below steps in sequence.
 	 
 - Run the docker image with the below cmd
 	
-		$ docker run -p 8081:8080 -t mydocker/gs-spring-boot-docker
+		$ docker run -p 8081:8080 -t mydocker/spring-boot-docker
 
 - Nevigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
 
